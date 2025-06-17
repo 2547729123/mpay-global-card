@@ -120,8 +120,8 @@ add_shortcode('mpay_unlock', function($atts, $content = null) {
 
             <div style="border:1px solid #ccc;padding:15px;margin:15px 0;background:#fff9f9;text-align:left;">
                 <p><strong>此内容需支付 <?php echo esc_html($atts['price']); ?> 元获取卡密</strong></p>
-                <a href="<?php echo esc_url($alipay_url); ?>" target="_blank"><img src="/wp-content/plugins/mpay-content-unlocker/img/alipay.jpg" width="160"></a>
-                <a href="<?php echo esc_url($wxpay_url); ?>" target="_blank"><img src="/wp-content/plugins/mpay-content-unlocker/img/wxpay.jpg" width="160"></a>
+                <a href="<?php echo esc_url($alipay_url); ?>" target="_blank"><img src="/wp-content/plugins/mpay-global-card/img/alipay.jpg" width="160"></a>
+                <a href="<?php echo esc_url($wxpay_url); ?>" target="_blank"><img src="/wp-content/plugins/mpay-global-card/img/wxpay.jpg" width="160"></a>
                 <p style="font-size:13px;color:#888;margin-top:10px;">支付完成后页面将自动跳转并发放卡密</p>
             </div>
         <?php endif; ?>
